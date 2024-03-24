@@ -4,7 +4,7 @@
 # compile CXX with /Library/Developer/CommandLineTools/usr/bin/clang++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/macbook/Documents/Projects/proxy_n_LB_hook_engine/include
+CXX_INCLUDES = -I/Users/macbook/Documents/Projects/server_engine/Proxy_n_LB_server_hook/include -I/Users/macbook/Documents/Projects/server_engine/vcpkg/installed/x64-osx/include
 
 CXX_FLAGS =  -std=c++17 -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.7
 

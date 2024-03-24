@@ -57,10 +57,10 @@ RM = /usr/local/Cellar/cmake/3.28.0/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/macbook/Documents/Projects/proxy_n_LB_hook_engine
+CMAKE_SOURCE_DIR = /Users/macbook/Documents/Projects/server_engine/Proxy_n_LB_server_hook
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/macbook/Documents/Projects/proxy_n_LB_hook_engine
+CMAKE_BINARY_DIR = /Users/macbook/Documents/Projects/server_engine/Proxy_n_LB_server_hook
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/macbook/Documents/Projects/proxy_n_LB_hook_engine/CMakeFiles /Users/macbook/Documents/Projects/proxy_n_LB_hook_engine//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/macbook/Documents/Projects/server_engine/Proxy_n_LB_server_hook/CMakeFiles /Users/macbook/Documents/Projects/server_engine/Proxy_n_LB_server_hook//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/macbook/Documents/Projects/proxy_n_LB_hook_engine/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/macbook/Documents/Projects/server_engine/Proxy_n_LB_server_hook/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

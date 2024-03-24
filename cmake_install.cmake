@@ -1,4 +1,4 @@
-# Install script for directory: /Users/macbook/Documents/Projects/proxy_n_LB_hook_engine
+# Install script for directory: /Users/macbook/Documents/Projects/server_engine/Proxy_n_LB_server_hook
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/macbook/Documents/Projects/proxy_n_LB_hook_engine/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/macbook/Documents/Projects/server_engine/Proxy_n_LB_server_hook/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
